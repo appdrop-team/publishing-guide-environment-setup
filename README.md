@@ -12,6 +12,8 @@ In this section of our Publishing Guide, you will create your developer accounts
 3. [Appdrop Environment Setup](#appdrop-environment-setup)
 4. [Next Steps](#next-steps)
 
+In [Section 2 of our Publishing Guide](https://github.com/appdrop-team/publishing-guide-app-setup), you'll complete the process of testing your app on a device and publishing it.
+
 <hr>
 
 ## Initial Steps for the App Store
@@ -22,7 +24,9 @@ Here are easy steps to get started developing for iOS. All you need is a laptop 
 
 In order to publish apps to the App Store, you must create an Apple Developer account for yourself or your business. Developer accounts require you to log in using a traditional Apple ID, such as ones you may be familiar with from iCloud. Visit [Apple's Developer Website](https://developer.apple.com) to complete all the required steps.
 
-Note – If publishing your app under a business account, Apple requires a tax ID number, such as an EIN, and additional verification from Dun & Bradstreet. This process can take a week or longer after your incorporation steps are complete, so make sure to budget the necessary time into your project timeline.
+> <br>**_Note for Business Accounts:_** <br>
+If you plan to publish your app under a business account, Apple requires a tax ID number, such as an EIN, and additional verification from Dun & Bradstreet. Incorporation and verification can take a week or longer, so make sure to budget the necessary time into your project timeline.
+<br>
 
 ### 2. Visit your [Apple Devloper Team Dashboard](https://developer.apple.com/account) to create an Apple Distribution Signing Certificate for your account.
 
@@ -77,9 +81,9 @@ After this step, you are ready to start testing and publishing your app using Xc
 
 That's it! You're ready to start iOS development. 
 
-If you're supporting Android as well, head over to our [Play Store guide](#play-store). 
+If you're supporting Android as well, head over to our [Play Store guide](#initial-steps-for-the-play-store). 
 
-Afterwards, head over to our [Appdrop setup guide](#appdrop-setup) to start testing your app.
+Afterwards, head over to our [Appdrop setup guide](#appdrop-environment-setup) to start testing your app.
 
 <br>
 <hr>
@@ -93,7 +97,9 @@ Here are easy steps to get started developing for Android. All you need is a lap
 
 In order to publish apps to the Play Store, you must create a Google Play Store Developer account for yourself or your business. Visit [Google's Play Store Developer Website](https://developer.android.com/distribute) to complete all the required steps.
 
-Note – If publishing your app under a business account, Google requires a tax ID number such as an EIN. This process can take a week or longer to complete, so make sure to budget the necessary time into your project timeline.
+> <br>**_Note for Business Accounts:_** <br>
+If you plan to publish your app under a business account, Google requires a tax ID number such as an EIN and a valid business address. Incorporation can take a week or longer after your company incorporation steps are complete, so make sure to budget the necessary time into your project timeline.
+<br>
 
 ### 2. Visit your [Play Store Console](https://play.google.com/apps/publish) and create your app.
 
@@ -109,9 +115,9 @@ After this step, you are ready to start testing and publishing your app using An
 
 That's it! You're ready to start Android development. 
 
-If you're supporting iOS as well, head over to our [App Store guide](#app-store). 
+If you're supporting iOS as well, head over to our [App Store guide](#initial-steps-for-the-app-store). 
 
-Afterwards, head over to our [Appdrop setup guide](#appdrop-setup) to start testing your app.
+Afterwards, head over to our [Appdrop setup guide](#appdrop-environment-setup) to start testing your app.
 
 <br>
 <hr>
@@ -129,21 +135,43 @@ Let's get started!
 
 You will need a dedicated space on your computer to house your app's files. Start by creating a folder called `@appdrop` inside your downloads folder so that you can house everything inside one place.
 
+![Appdrop folder](/images/04.png)
+
 ### 2. Launch Your Command Line at this Folder.
 
 Next, Ctrl- Click this folder and select `New Terminal at Folder`.
 
-Once your Command Line is up, type the command `pwd` (short for present-working-director) and press Enter on your keyboard. Your command line should print something like `/Users/yourname/Downloads/@appdrop` to verify that you are inside of your `@appdrop` folder. Leave this window open and run the command line steps from the next step inside this Folder.
+![Launch Terminal](/images/05.png)
 
-Tip – You can organize your Downloads folder alphabetically to place @appdrop at or near the top.
+Once your Command Line is up, paste in the command:
+
+`pwd` 
+
+Press Enter on your keyboard to run this command (short for "present working directory").
+
+![Verify Terminal](/images/06.png)
+
+Your command line should print something like `/Users/yourname/Downloads/@appdrop` to verify that you are working inside of your `@appdrop` folder. You should also be able to see this at the top of your Command Line Interface on most computers.
+
+Leave this window open because you will run the command line prompts from the next step inside this same location.
+
+> <br>**_Tip:_**
+You can organize your Downloads folder alphabetically which will place @appdrop at or near the top.
+<br>
 
 ### 3. Prepare Your Computer to run React Native Apps
 
 Your next big milestone will be successfully creating a React Native test project on your device to ensure that your environment setup is correctly. At the end, you should see screens on your iOS and Android devices that look like these photos.
 
-Head over to the React Native Environment Setup guide and follow the instructions for the `React Native CLI Quickstart` option with the `yarn` package manager.
+![Successful milestone](/images/07.png)
 
-Note – Be absolutely certain that React Native 0.63 is selected in the top left corner of the website so that you follow the correct setup steps.
+Head over to the [React Native Environment Setup guide linked here](https://reactnative.dev/docs/environment-setup) and __carefully__ follow the instructions for the `React Native CLI Quickstart` option with the `yarn` package manager.
+
+![RN Environment Setup](/images/08.png)
+
+> <br>**_Important:_**
+Be absolutely certain that React Native 0.63 is selected in the top left corner of the website so that you follow the correct setup steps.
+<br>
 
 Select your development OS `Mac`, `Windows`, or `Linux` and go through the setup steps for each type of app you plan to support.
 
@@ -153,16 +181,52 @@ When you reach the *Creating a New Application* step, you will be specifying Rea
 npx react-native init AwesomeTSProject --version 0.63.0 --template react-native-template-typescript
 ```
 
+If everything was done correctly up to this point, you will see a new folder inside of @appdrop called AwesomeTSProject. You will run your app using the code inside the `iOS` and `android` folders. If you don't have both an iOS and Android device, that is OK! Simulators will help you test your app on the device(s) that you are missing.
 
-### 4. Run the test App
+![RN Create](/images/09.png)
 
-If everything was done correctly up to this point, you will see a new folder inside of @appdrop called AwesomeTSProject. You will run your app using the code inside the `iOS` and `android` folders. 
+<br>
+<br>
+<hr>
+<br>
 
-Note – if you don't have both an iOS and Android device, that is OK! Simulators will help you test your app on the device(s) that you are missing.
+## Additional Steps to Run the Test App on iOS
 
-Note for iOS – Make sure to select the .xcworkspace file, not the .xcodeproj file when you launch Xcode.
+### 4. Launch Xcode
 
-Note for Windows Users – In order to install Xcode and publish iOS apps from your PC, you may need to install virtual MacOS software, such as [VirtualBox](https://www.virtualbox.org/) which is free from Oracle.
+> <br>**_Important:_** 
+Make sure to select the .xcworkspace file, not the .xcodeproj file when you launch Xcode.
+<br>
+
+![Select .xcworkspace](/images/10.png)
+
+> <br>**_Note for Windows Computers:_** <br>
+In order to install Xcode and publish iOS apps from your PC, you may need to install virtual MacOS software, such as [VirtualBox](https://www.virtualbox.org/) which is free from Oracle.
+<br>
+
+### 5. Configure Xcode with your Developer Credentials
+
+From Xcode, you will need to sign in to your Apple Developer Account and attach the Distribution Signing Certificate you created during the [Initial Steps for App Store](#initial-steps-for-the-app-store).
+
+Select your project on the left side of Xcode and navigate to the Signing & Capabilities tab.
+
+![Navigate to Signing & Capabilities](/images/11.png)
+
+Enter the Apple ID credentials attached to your Apple Developer Account.
+
+![Sign in to Apple](/images/12.png)
+
+Next, you will select the appropriate Team from this list. In some cases, you may have multiple Apple Developer Accounts on your device separated for personal and business use or separated for 1st party work and external client work.
+
+![Select Team](/images/13.png)
+
+Double-click your Distribution Signing Certificate to select it.
+
+![Select your Distribution Signing Certificate](/images/14.png)
+
+Xcode will now provide you with a dropdown list where you can select your Team from the Signing & Capabilities tab. Choose your Team name and your Distribution Signing Certificate will automatically be attached to this app.
+
+![Select Team](/images/15.png)
 
 
 <br>
@@ -173,4 +237,4 @@ Note for Windows Users – In order to install Xcode and publish iOS apps from y
 
 With that, you're one step closer to launching your app! Feeling excited yet? We hope so!
 
-Next, head on over Section 2 of our Publishing Guide which walks you through the process of testing your running your app on a device and publishing it.
+Next, head on over [Section 2 of our Publishing Guide](https://github.com/appdrop-team/publishing-guide-app-setup) which walks you through the process of testing your app on a device and publishing it.
