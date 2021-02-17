@@ -24,7 +24,7 @@ Here are easy steps to get started developing for iOS. All you need is a laptop 
 
 In order to publish apps to the App Store, you must create an Apple Developer account for yourself or your business. Developer accounts require you to log in using a traditional Apple ID, such as ones you may be familiar with from iCloud. Visit [Apple's Developer Website](https://developer.apple.com) to complete all the required steps.
 
-> <br>**_Note for Business Accounts:_** <br>
+>**_Note for Business Accounts:_** <br>
 If you plan to publish your app under a business account, Apple requires a tax ID number, such as an EIN, and additional verification from Dun & Bradstreet. Incorporation and verification can take a week or longer, so make sure to budget the necessary time into your project timeline.
 <br>
 
@@ -137,6 +137,8 @@ You will need a dedicated space on your computer to house your app's files. Star
 
 ![Appdrop folder](/images/04.png)
 
+> **_Tip:_** You can organize your Downloads folder alphabetically which will place @appdrop at or near the top.
+
 ### 2. Launch Your Command Line at this Folder.
 
 Next, Ctrl- Click this folder and select `New Terminal at Folder`.
@@ -154,8 +156,6 @@ Press Enter on your keyboard to run this command (short for "present working dir
 Your command line should print something like `/Users/yourname/Downloads/@appdrop` to verify that you are working inside of your `@appdrop` folder. You should also be able to see this at the top of your Command Line Interface on most computers.
 
 Leave this window open because you will run the command line prompts from the next step inside this same location.
-
-> **_Tip:_** You can organize your Downloads folder alphabetically which will place @appdrop at or near the top.
 
 ### 3. Prepare Your Computer to run React Native Apps
 
