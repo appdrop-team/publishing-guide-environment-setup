@@ -155,9 +155,7 @@ Your command line should print something like `/Users/yourname/Downloads/@appdro
 
 Leave this window open because you will run the command line prompts from the next step inside this same location.
 
-> <br>**_Tip:_**
-You can organize your Downloads folder alphabetically which will place @appdrop at or near the top.
-<br>
+> **_Tip:_** You can organize your Downloads folder alphabetically which will place @appdrop at or near the top.
 
 ### 3. Prepare Your Computer to run React Native Apps
 
@@ -165,7 +163,7 @@ Your next big milestone will be successfully creating a React Native test projec
 
 ![Successful milestone](/images/07.png)
 
-Head over to the [React Native Environment Setup guide linked here](https://reactnative.dev/docs/environment-setup) and __carefully__ follow the instructions for the `React Native CLI Quickstart` option with the `yarn` package manager.
+In a new tab, head over to the [React Native Environment Setup guide linked here](https://reactnative.dev/docs/environment-setup) and __carefully__ follow all of the instructions for the `React Native CLI Quickstart` guide.
 
 ![RN Environment Setup](/images/08.png)
 
