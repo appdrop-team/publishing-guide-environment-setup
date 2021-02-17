@@ -15,7 +15,7 @@ In this section of our Publishing Guide, you will create your developer accounts
 3. [Appdrop Environment Setup](#appdrop-environment-setup)
 4. [Next Steps](#next-steps)
 
-In [Section 2 of our Publishing Guide](https://github.com/appdrop-team/publishing-guide-app-setup), you'll complete the process of testing your app on a device and publishing it.
+In [Section 2 of our Publishing Guide](https://github.com/appdrop-team/publishing-guide-app-setup), you'll complete the process of testing your app on a device and uploading the code.
 
 <hr>
 
