@@ -6,7 +6,7 @@
 Welcome to Section 1 of Appdrop's Publishing Guide. Here marks the first step to publishing your apps to the App Store, Play Store or both.
 
 >**_Remember:_**<br>
-During the process of designing your app we __highly__ recommend using Appdrop's Companion app from your [iOS](https://appstore.apple.com/fixthis) or [Android](https://playstore.google.com/fixthis) device __before__s embarking on the process of publishing. You will be able to interact with a live preview of your app and is a significantly faster way to both iterate designs and be sure that Appdrop is the correct solution for your team!
+During the process of designing your app we __highly__ recommend using Appdrop's Companion app from your [iOS](https://appstore.apple.com/fixthis) or [Android](https://playstore.google.com/fixthis) device __before__ embarking on the process of publishing. You will be able to interact with a live preview of your app and is a significantly faster way to both iterate designs and be sure that Appdrop is the correct solution for your team!
 
 In this section of our Publishing Guide, you will create your developer accounts with Apple and Google and prepare your laptop or desktop for publishing apps using React Native. We've divided Section 1 into the following parts:
 
