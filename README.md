@@ -97,7 +97,7 @@ Here are easy steps to get started developing for Android. All you need is a lap
 
 In order to publish apps to the Play Store, you must create a Google Play Store Developer account for yourself or your business. Visit [Google's Play Store Developer Website](https://developer.android.com/distribute) to complete all the required steps.
 
-> <br>**_Note for Business Accounts:_** <br>
+>**_Note for Business Accounts:_** <br>
 If you plan to publish your app under a business account, Google requires a tax ID number such as an EIN and a valid business address. Incorporation can take a week or longer after your company incorporation steps are complete, so make sure to budget the necessary time into your project timeline.
 <br>
 
@@ -167,7 +167,7 @@ In a new tab, head over to the [React Native Environment Setup guide linked here
 
 ![RN Environment Setup](/images/08.png)
 
-> <br>**_Important:_**
+>**_Important:_**
 Be absolutely certain that React Native 0.63 is selected in the top left corner of the website so that you follow the correct setup steps.
 <br>
 
@@ -192,13 +192,13 @@ If everything was done correctly up to this point, you will see a new folder ins
 
 ### 4. Launch Xcode
 
-> <br>**_Important:_** 
+>**_Important:_** 
 Make sure to select the .xcworkspace file, not the .xcodeproj file when you launch Xcode.
 <br>
 
 ![Select .xcworkspace](/images/10.png)
 
-> <br>**_Note for Windows Computers:_** <br>
+>**_Note for Windows Computers:_** <br>
 In order to install Xcode and publish iOS apps from your PC, you may need to install virtual MacOS software, such as [VirtualBox](https://www.virtualbox.org/) which is free from Oracle.
 <br>
 
